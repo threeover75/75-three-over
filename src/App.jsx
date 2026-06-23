@@ -505,14 +505,15 @@ export default function App() {
 
   <ol
     style={{
-    listStyle: "none",
-    padding: 0,
-    paddingLeft: "360px",
-    margin: "16px 0 0 0",
-    color: "#444",
-    fontSize: "15px",
-    lineHeight: "1.9",
-    textAlign: "left",
+      listStyle: "none",
+      padding: 0,
+      margin: "16px 0 0 0",
+      color: "#444",
+      fontSize: "15px",
+      lineHeight: "1.9",
+      textAlign: "left",
+      width: "100%",
+      boxSizing: "border-box",
     }}
   >
     <li>① LINEでご相談</li>
