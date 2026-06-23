@@ -158,13 +158,13 @@ export default function App() {
   }}
 >
   <div
-     style={{
+  style={{
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+    gridTemplateColumns: window.innerWidth < 700 ? "1fr" : "1fr 1fr",
     gap: "32px",
     alignItems: "center",
   }}
-  >
+>
     {/* キャッチコピー */}
     <div>
       <div
@@ -221,8 +221,9 @@ export default function App() {
         “ちょうどいい一本”は一人ひとり違います。
         <br />
         あなたに合った形に仕上げて、
-        <br />
-        ゴルフがもっと楽しくなる一本をお届けします。
+        ゴルフが
+         <br />
+        もっと楽しくなる一本をお届けします。
       </p>
     </div>
 
@@ -252,59 +253,57 @@ export default function App() {
   </div>
 </section>
 
-        {/* コンセプト */}
-        <section style={{
-                 ...sectionStyle,
-                 position: "relative",
-                 overflow: "hidden",
-                 }}>
-          <div style={labelStyle}>CONCEPT</div>
-<div
-  style={{
-    position: "absolute",
-    top: "80px",
-    right: "50px",
-    width: "180px",
-    height: "150px",
-    borderRadius: "50%",
-    overflow: "hidden",
-    border: `4px solid #ffffff`,
-    boxShadow: "0 8px 20px rgba(0,0,0,0.12)",
-  }}
->
-  <img
-    src="/images/certification.jpg"
-    alt="認定証写真"
+ {/* コンセプト */}
+<section style={sectionStyle}>
+  <div style={labelStyle}>CONCEPT</div>
+
+  <p style={textStyle}>
+    クラブは、誰にでも同じように合うものではありません。
+  </p>
+
+  <p style={textStyle}>
+    スイングや癖、目指すゴルフによって、
+    “ちょうどいい一本”は一人ひとり違います。
+  </p>
+
+  <div
     style={{
-      width: "100%",
-      height: "100%",
-      objectFit: "cover",
+      width: "180px",
+      height: "180px",
+      borderRadius: "50%",
+      overflow: "hidden",
+      border: "4px solid #ffffff",
+      boxShadow: "0 8px 20px rgba(0,0,0,0.12)",
+      margin: "22px auto",
     }}
-  />
-</div>
-          <p style={textStyle}>
-            クラブは、誰にでも同じように合うものではありません。
-          </p>
-          <p style={textStyle}>
-            スイングや癖、目指すゴルフによって、
-            <br />
-            “ちょうどいい一本”は一人ひとり違います。
-          </p>
-          <p style={textStyle}>
-            現在お使いのクラブやご要望をもとに、
-            <br />
-            一本ずつ丁寧に向き合い、
-          </p>
-          <p style={textStyle}>あなたに合った形に仕上げます。</p>
-          <p style={textStyle}>
-            派手さはありませんが、
-            <br />
-            確かな変化を感じてもらえるように。
-          </p>
-          <p style={{ ...textStyle, marginBottom: 0 }}>
-            そんな一本をお届けします。
-          </p>
-        </section>
+  >
+    <img
+      src="/images/certification.jpg"
+      alt="認定証写真"
+      style={{
+        width: "100%",
+        height: "100%",
+        objectFit: "cover",
+      }}
+    />
+  </div>
+
+  <p style={textStyle}>
+    現在お使いのクラブやご要望をもとに、
+    一本ずつ丁寧に向き合い、
+  </p>
+
+  <p style={textStyle}>あなたに合った形に仕上げます。</p>
+
+  <p style={textStyle}>
+    派手さはありませんが、
+    確かな変化を感じてもらえるように。
+  </p>
+
+  <p style={{ ...textStyle, marginBottom: 0 }}>
+    そんな一本をお届けします。
+  </p>
+</section>
 
 
 
@@ -342,9 +341,9 @@ export default function App() {
           <h2 style={titleStyle}>クラブ調整について</h2>
 
           <p style={textStyle}>
-            現在お使いのクラブをもとに、
-            <br />
-            バランス・長さ・重さなどを調整します。
+            現在お使いのクラブをもとに、バランス・長さ・重さ
+            <br />  
+            などを調整します。
           </p>
           <p style={{ ...textStyle, marginBottom: 0 }}>
             大きく変えるのではなく、
