@@ -516,12 +516,12 @@ export default function App() {
       boxSizing: "border-box",
     }}
   >
-    <li>① LINEでご相談</li>
-    <li>② クラブの状態やご希望内容を確認</li>
-    <li>③ 作業内容・料金の目安をご案内</li>
-    <li>④ お客様から発送</li>
-    <li>⑤ 調整・メンテナンス</li>
-    <li>⑥ お客様へ発送</li>
+    <li style={{ marginBottom: "8px" }}>① LINEでご相談</li>
+    <li style={{ marginBottom: "8px" }}>② クラブの状態やご希望内容を確認</li>
+    <li style={{ marginBottom: "8px" }}>③ 作業内容・料金の目安をご案内</li>
+    <li style={{ marginBottom: "8px" }}>④ お客様から発送</li>
+    <li style={{ marginBottom: "8px" }}>⑤ 調整・メンテナンス</li>
+    <li style={{ marginBottom: "8px" }}>⑥ お客様へ発送</li>
   </ol>
 </section>
 
