@@ -457,7 +457,6 @@ export default function App() {
     {[
       "一人ひとりに合わせた調整",
       "無理な提案はしません（できないことはしません）",
-      "過不足のない仕上がり",
     ].map((item) => (
       <div
         key={item}
@@ -487,18 +486,20 @@ export default function App() {
         >
           <div style={labelStyle}>BRAND MESSAGE</div>
           <p
-            style={{
-              fontSize: "23px",
-              lineHeight: 1.75,
-              color: colors.text,
-              margin: "0 0 12px",
-              fontWeight: 700,
-            }}
-          >
-            75（three over）
-            <br />
-            くらいで回れたら、ちょっと気持ちいい。
-          </p>
+  style={{
+    fontSize: "23px",
+    lineHeight: 1.75,
+    color: colors.text,
+    margin: "0 0 12px",
+    fontWeight: 700,
+  }}
+>
+  75（three over）
+  <br />
+  くらいで回れたら、
+  <br />
+  ちょっと気持ちいい。
+</p>
           <p style={{ ...textStyle, marginBottom: 0 }}>
             そんな一本を一緒につくっていけたら嬉しいです。
           </p>
