@@ -354,13 +354,10 @@ export default function App() {
 
           <p style={textStyle}>
             現在お使いのクラブをもとに、バランス・長さ・重さ
-            <br />  
             などを調整します。
           </p>
           <p style={{ ...textStyle, marginBottom: 0 }}>
-            大きく変えるのではなく、
-            <br />
-            “違和感をなくす”ことを大切にしています。
+            大きく変えるのではなく、“違和感をなくす”ことを大切にしています。
           </p>
         </section>
 
@@ -437,7 +434,9 @@ export default function App() {
           <div style={{ display: "grid", gap: "10px", marginTop: "16px" }}>
             {[
               "一人ひとりに合わせた調整",
-              "無理な提案はしません（できないことはしません）",
+              "無理な提案はしません
+              <br />
+              （できないことはしません）",
               ].map((item) => (
               <div
                 key={item}
