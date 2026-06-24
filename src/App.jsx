@@ -456,9 +456,8 @@ export default function App() {
           <div style={{ display: "grid", gap: "10px", marginTop: "16px" }}>
             {[
               "一人ひとりに合わせた調整",
-              "無理な提案はしません
-              <br />
-              （できないことはしません）",
+             icon: "🔧",
+             text: "無理な提案はしません（できないことはしません）"  
               ].map((item) => (
               <div
                 key={item}
