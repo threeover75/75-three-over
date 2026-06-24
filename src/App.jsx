@@ -43,12 +43,12 @@ export default function App() {
   };
 
   const textStyle = {
-    fontSize: "15px",
-    lineHeight: 1.9,
-    color: colors.subText,
-    margin: "0 0 10px",
-    paddingRight: "120px",
-  };
+  fontSize: "15px",
+  lineHeight: 1.9,
+  color: colors.subText,
+  margin: "0 0 14px",
+  textAlign: "left",
+};
 
   const buttonStyle = {
     display: "inline-block",
