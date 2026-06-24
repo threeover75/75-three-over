@@ -218,10 +218,11 @@ export default function App() {
       >
         スイングや癖、目指すゴルフによって、
         <br />
-        “ちょうどいい一本”は一人ひとり違います。
+        “ちょうどいい一本”
         <br />
-        あなたに合った形に仕上げて、
-        ゴルフが
+        は一人ひとり違います。
+        <br />
+        あなたに合った形に仕上げて、ゴルフが
          <br />
         もっと楽しくなる一本をお届けします。
       </p>
@@ -257,14 +258,21 @@ export default function App() {
 <section style={sectionStyle}>
   <div style={labelStyle}>CONCEPT</div>
 
-  <p style={textStyle}>
-    クラブは、誰にでも同じように合うものではありません。
-  </p>
+  <div
+    style={{
+      textAlign: "left",
+      maxWidth: "520px",
+      margin: "0 auto",
+    }}
+  >
+    <p style={{ ...textStyle, textAlign: "left", lineHeight: 1.9 }}>
+      クラブは、誰にでも同じように合うものではありません。
+    </p>
 
-  <p style={textStyle}>
-    スイングや癖、目指すゴルフによって、
-    “ちょうどいい一本”は一人ひとり違います。
-  </p>
+    <p style={{ ...textStyle, textAlign: "left", lineHeight: 1.9 }}>
+      スイングや癖、目指すゴルフによって、“ちょうどいい一本”は一人ひとり違います。
+    </p>
+  </div>
 
   <div
     style={{
@@ -274,7 +282,7 @@ export default function App() {
       overflow: "hidden",
       border: "4px solid #ffffff",
       boxShadow: "0 8px 20px rgba(0,0,0,0.12)",
-      margin: "22px auto",
+      margin: "24px auto",
     }}
   >
     <img
@@ -288,21 +296,25 @@ export default function App() {
     />
   </div>
 
-  <p style={textStyle}>
-    現在お使いのクラブやご要望をもとに、
-    一本ずつ丁寧に向き合い、
-  </p>
+  <div
+    style={{
+      textAlign: "left",
+      maxWidth: "520px",
+      margin: "0 auto",
+    }}
+  >
+    <p style={{ ...textStyle, textAlign: "left", lineHeight: 1.9 }}>
+      現在お使いのクラブやご要望をもとに、一本ずつ丁寧に向き合い、あなたに合った形に仕上げます。
+    </p>
 
-  <p style={textStyle}>あなたに合った形に仕上げます。</p>
+    <p style={{ ...textStyle, textAlign: "left", lineHeight: 1.9 }}>
+      派手さはありませんが、確かな変化を感じてもらえるように。
+    </p>
 
-  <p style={textStyle}>
-    派手さはありませんが、
-    確かな変化を感じてもらえるように。
-  </p>
-
-  <p style={{ ...textStyle, marginBottom: 0 }}>
-    そんな一本をお届けします。
-  </p>
+    <p style={{ ...textStyle, textAlign: "left", lineHeight: 1.9, marginBottom: 0 }}>
+      そんな一本をお届けします。
+    </p>
+  </div>
 </section>
 
 
