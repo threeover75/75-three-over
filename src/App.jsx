@@ -474,9 +474,9 @@ export default function App() {
               fontWeight: 700,
             }}
           >
-            75（three over）くらいで回れたら、
+            75（three over）
             <br />
-            ちょっと気持ちいい。
+            くらいで回れたら、ちょっと気持ちいい。
           </p>
           <p style={{ ...textStyle, marginBottom: 0 }}>
             そんな一本を一緒につくっていけたら嬉しいです。
@@ -502,9 +502,9 @@ export default function App() {
   </p>
 
   <p style={{ ...textStyle, marginBottom: 0 }}>
-    ご相談内容をもとに、
+    ご相談内容をもとに、作業内容と料金
     <br />
-    作業内容と料金の目安をご案内します。
+    の目安をご案内します。
   </p>
 </section>
 
