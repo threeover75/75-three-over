@@ -347,19 +347,41 @@ export default function App() {
           </div>
         </section>
 
-        {/* サービス */}
-        <section style={sectionStyle}>
-          <div style={labelStyle}>SERVICE</div>
-          <h2 style={titleStyle}>クラブ調整について</h2>
+       {/* サービス */}
+<section style={sectionStyle}>
+  <div style={labelStyle}>SERVICE</div>
+  <h2 style={titleStyle}>クラブ調整について</h2>
 
-          <p style={textStyle}>
-            現在お使いのクラブをもとに、バランス・長さ・重さ
-            などを調整します。
-          </p>
-          <p style={{ ...textStyle, marginBottom: 0 }}>
-            大きく変えるのではなく、“違和感をなくす”ことを大切にしています。
-          </p>
-        </section>
+  <div
+    style={{
+      textAlign: "left",
+      maxWidth: "520px",
+      margin: "0 auto",
+    }}
+  >
+    <p
+      style={{
+        ...textStyle,
+        textAlign: "left",
+        lineHeight: 1.9,
+        marginBottom: "16px",
+      }}
+    >
+      現在お使いのクラブをもとに、バランス・長さ・重さなどを調整します。
+    </p>
+
+    <p
+      style={{
+        ...textStyle,
+        textAlign: "left",
+        lineHeight: 1.9,
+        marginBottom: 0,
+      }}
+    >
+      大きく変えるのではなく、“違和感をなくす”ことを大切にしています。
+    </p>
+  </div>
+</section>
 
 {/* 対応内容 */}
 <section style={sectionStyle}>
