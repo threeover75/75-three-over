@@ -448,33 +448,33 @@ export default function App() {
 </div>
 </section>
 
-        {/* 特徴 */}
-        <section style={sectionStyle}>
-          <div style={labelStyle}>FEATURE</div>
-          <h2 style={titleStyle}>特徴</h2>
+       {/* 特徴 */}
+<section style={sectionStyle}>
+  <div style={labelStyle}>FEATURE</div>
+  <h2 style={titleStyle}>特徴</h2>
 
-          <div style={{ display: "grid", gap: "10px", marginTop: "16px" }}>
-            {[
-              "一人ひとりに合わせた調整",
-             icon: "🔧",
-             text: "無理な提案はしません（できないことはしません）"  
-              ].map((item) => (
-              <div
-                key={item}
-                style={{
-                  background: "linear-gradient(135deg, #f7faf7 0%, #ffffff 100%)",
-                  borderRadius: "16px",
-                  padding: "14px",
-                  border: `1px solid ${colors.border}`,
-                  fontSize: "15px",
-                  color: "#444",
-                }}
-              >
-                {item}
-              </div>
-            ))}
-          </div>
-        </section>
+  <div style={{ display: "grid", gap: "10px", marginTop: "16px" }}>
+    {[
+      "一人ひとりに合わせた調整",
+      "無理な提案はしません（できないことはしません）",
+      "過不足のない仕上がり",
+    ].map((item) => (
+      <div
+        key={item}
+        style={{
+          background: "linear-gradient(135deg, #f7faf7 0%, #ffffff 100%)",
+          borderRadius: "16px",
+          padding: "14px",
+          border: `1px solid ${colors.border}`,
+          fontSize: "15px",
+          color: "#444",
+        }}
+      >
+        {item}
+      </div>
+    ))}
+  </div>
+</section>
 
         {/* ブランドメッセージ */}
         <section
