@@ -364,7 +364,7 @@ export default function App() {
         ...textStyle,
         textAlign: "left",
         lineHeight: 1.9,
-        marginBottom: "16px",
+        marginBottom: "14px",
       }}
     >
       現在お使いのクラブをもとに、バランス・長さ・重さなどを調整します。
